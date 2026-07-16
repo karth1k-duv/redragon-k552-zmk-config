@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: nguyendown
+      url-base: https://github.com/nguyendown
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-behavior-socd
+      remote: nguyendown
+      revision: main
   self:
     path: config
