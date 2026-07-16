@@ -1,0 +1,15 @@
+if SHIELD_REDRAGON
+
+config ZMK_KEYBOARD_NAME
+    default "Redragon K552"
+
+config USB_DEVICE_HID
+    default y
+
+config BT
+    default y
+
+config ZMK_STUDIO
+    default y
+
+endif
