@@ -8,14 +8,12 @@
             compatible = "zmk,behavior-socd";
             #binding-cells = <1>;
             bindings = <&kp>;
-            no-resume;
         };
 
         socdy: socd_y {
             compatible = "zmk,behavior-socd";
             #binding-cells = <1>;
             bindings = <&kp>;
-            no-resume;
         };
     };
 
