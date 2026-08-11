@@ -1,0 +1,22 @@
+file_format: "1"
+
+id: feather17x6
+
+name: Feather 17x6
+
+type: shield
+
+url: ""
+
+features:
+  - keys
+  - studio
+
+requires:
+  - adafruit_feather_nrf52840
+
+exposes:
+  - spi
+
+siblings:
+  - feather17x6
