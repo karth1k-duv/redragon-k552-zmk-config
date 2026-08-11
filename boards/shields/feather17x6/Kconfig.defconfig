@@ -1,0 +1,12 @@
+if SHIELD_FEATHER17X6
+
+config ZMK_KEYBOARD_NAME
+    default "Feather 17x6"
+
+config SPI
+    default y
+
+config ZMK_PHYSICAL_LAYOUT_KEY_ROTATION
+    default y
+
+endif
